@@ -97,21 +97,6 @@ using BlazingPizza.Shared;
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 25 "D:\Proyectos\Visual Studio 2019\Blazor\BlazingPizza\BlazingPizza\Client\Pages\Index.razor"
-      
-    List<PizzaSpecial> Specials;
-
-    protected async override Task OnInitializedAsync()
-    {
-        Specials = await HttpClient.GetFromJsonAsync<List<PizzaSpecial>>("specials");
-
-    }
-
-#line default
-#line hidden
-#nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient HttpClient { get; set; }
     }
 }
 #pragma warning restore 1591
