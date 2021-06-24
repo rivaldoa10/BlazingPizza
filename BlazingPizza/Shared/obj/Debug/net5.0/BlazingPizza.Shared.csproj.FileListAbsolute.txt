@@ -2,7 +2,6 @@ D:\Proyectos\Visual Studio 2019\Blazor\BlazingPizza\BlazingPizza\Shared\bin\Debu
 D:\Proyectos\Visual Studio 2019\Blazor\BlazingPizza\BlazingPizza\Shared\bin\Debug\net5.0\BlazingPizza.Shared.dll
 D:\Proyectos\Visual Studio 2019\Blazor\BlazingPizza\BlazingPizza\Shared\bin\Debug\net5.0\ref\BlazingPizza.Shared.dll
 D:\Proyectos\Visual Studio 2019\Blazor\BlazingPizza\BlazingPizza\Shared\bin\Debug\net5.0\BlazingPizza.Shared.pdb
-D:\Proyectos\Visual Studio 2019\Blazor\BlazingPizza\BlazingPizza\Shared\obj\Debug\net5.0\BlazingPizza.Shared.csproj.AssemblyReference.cache
 D:\Proyectos\Visual Studio 2019\Blazor\BlazingPizza\BlazingPizza\Shared\obj\Debug\net5.0\BlazingPizza.Shared.GeneratedMSBuildEditorConfig.editorconfig
 D:\Proyectos\Visual Studio 2019\Blazor\BlazingPizza\BlazingPizza\Shared\obj\Debug\net5.0\BlazingPizza.Shared.AssemblyInfoInputs.cache
 D:\Proyectos\Visual Studio 2019\Blazor\BlazingPizza\BlazingPizza\Shared\obj\Debug\net5.0\BlazingPizza.Shared.AssemblyInfo.cs

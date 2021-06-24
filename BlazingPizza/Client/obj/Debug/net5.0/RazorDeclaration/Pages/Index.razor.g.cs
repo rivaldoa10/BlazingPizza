@@ -82,6 +82,13 @@ using BlazingPizza.Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "D:\Proyectos\Visual Studio 2019\Blazor\BlazingPizza\BlazingPizza\Client\_Imports.razor"
+using BlazingPizza.Shared;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -90,6 +97,21 @@ using BlazingPizza.Client.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 25 "D:\Proyectos\Visual Studio 2019\Blazor\BlazingPizza\BlazingPizza\Client\Pages\Index.razor"
+      
+    List<PizzaSpecial> Specials;
+
+    protected async override Task OnInitializedAsync()
+    {
+        Specials = await HttpClient.GetFromJsonAsync<List<PizzaSpecial>>("specials");
+
+    }
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient HttpClient { get; set; }
     }
 }
 #pragma warning restore 1591

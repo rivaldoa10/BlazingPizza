@@ -79,6 +79,13 @@ using BlazingPizza.Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "D:\Proyectos\Visual Studio 2019\Blazor\BlazingPizza\BlazingPizza\Client\_Imports.razor"
+using BlazingPizza.Shared;
+
+#line default
+#line hidden
+#nullable disable
     public partial class MainLayout : LayoutComponentBase
     {
         #pragma warning disable 1998
